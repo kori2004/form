@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Persional Information</legend>
+        <form>
+    <label for ="name">Full Name: </label>
+    <input type="text" id="name" placeholder="Enter your name">
+    <br>
+    <br>
+    <label for="Email">Email: </label>
+    <input type="email" id="Email">
+    <br>
+    <br>
+    <label for="Password">Password: </label>
+    <input type="password" id="Password">
+    <br>
+    <br>
+    <label for="Phone">Phone: </label>
+    <input type="number" id="Phone" placeholder="10 digit number">
+    <br>
+    <br>
+    <label for="Url">Website: </label>
+    <input type="url" id="Url" placeholder="https://example.com">
+    <br>
+    <br>
+    <label for="Course">Search Course: </label>
+    <input type="text" id="Course" placeholder="Search">
+    </fieldset>
+    <fieldset>
+        <legend>Other Details</legend>
+    <label for="num">Age: </label>
+    <input type="number" id="num">
+    <br>
+    <br>
+    <label for="date">Date of Birth: </label>
+    <input type="date" id="date">
+    <br>
+    <br>
+    <label for="local">Preerred Time: </label>
+    <input type="time" id="local">
+    <br>
+    <br>
+    <label for="time">Meeting Date & Time: </label>
+    <input type="datetime-local" id="time">
+    <br>
+    <br>
+    <label>Gender: </label>
+    <label><input type="radio" value="male" name="opt1">Male </label>
+    <label><input type="radio" value="female" name="opt1">Female</label>
+    <br>
+    <br>
+    <label>Hobbies: </label>
+    <label><input type="checkbox" value="Reading" name="optn1">Reading</label>
+    <label><input type="checkbox" value="Sports" name="optn2">Sports</label>
+    <br>
+    <br>
+    <label for="Color">Favorite Color: </label>
+    <input type="color" id="Color" style="color: black;">
+    <br>
+    <br>
+    <label for="range">Skill Level: </label>
+    <input type="range" id="range" name="5" value="5">
+    <br>
+    <br>
+    </fieldset>
+    <fieldset>
+        <legend>Selection</legend>
+        <label for="course">Course: </label>
+    <select id="course" name="cousre">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+    </select>
+    <br>
+    <br>
+    <label for="city">City: </label>
+    <input type="text" id="city">
+    <br>
+    <br>
+    <label for="File">Upload Photos: </label>
+    <input type="file" id="File" placeholder="Choose Files">
+    <br>
+    <br>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        <textarea placeholder="write your comments" rows="5" cols="40">
+        write your comments
+            
+        </textarea>
+        <br>
+        <br>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+        <input disabled placeholder="disabled Button">
+    </form>
+
+    
+
+</body>
+</html>
